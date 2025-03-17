@@ -1,13 +1,34 @@
-.index-header,
-.index-footer {
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.my-header,
+.my-footer {
   width: 100vw;
   height: 50px;
   line-height: 50px;
   color: black;
-  text-align: centre;
+  text-align: left ;
 }
 
-.index-content {
-  background: #ffffff
-  color: #000000;
+.my-header {
+  background: black;
+  color: #fff;
+}
+
+.my-content {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-footer {
+  background: #000000;
+  color: #fff;
 }
